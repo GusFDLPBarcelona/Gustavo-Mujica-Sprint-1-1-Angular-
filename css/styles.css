@@ -1,0 +1,108 @@
+*{
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap; 
+    }
+        .menu{
+            background: #7E2553;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            
+        }
+            .logo{
+                background: #DC6B19;
+                flex: 1 1 auto;
+                height: 32px;
+                
+        }
+            .logo:hover{
+                background: #f9a66b;
+                transform: scale(1.2);
+                transition: transform 0.5s ease, background-color 0.5s ease;
+        }
+            .nav{
+                background: #DC6B19;
+                flex: 5 1 auto;
+                height: 32px;
+               
+        }
+            .nav:hover{
+                background: #f9a66b;
+                transform: scale(1.06);
+                transition: transform 0.5s ease, background-color 0.5s ease;
+               
+        }
+            .social{
+                background: #DC6B19;
+                flex: 1 1 auto;
+                height: 32px;
+                
+        }
+            .social:hover{
+                background: #f9a66b;
+                transform: scale(1.2);
+                transition: transform 0.5s ease, background-color 0.5s ease;
+        }
+
+
+        .texto-principal{
+            background: #F7C566;
+        }
+            h1{
+                background: #FFF8DC;
+                height: 35px;
+
+            }
+
+    .section{
+        display: flex;
+        flex-direction: row;
+        background: #000;
+    }
+        .articulos{
+            background: #C08B5C;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article{ 
+                background: #ff9900;
+                flex: 1 1 40%;
+                height: 32px;
+            }
+            .navegacion{
+                background: #6c3200;
+                flex: 1 1 100%;
+                height: 32px;
+            }
+            .aside{
+                background: #f4b300;
+                flex: 1 1 auto; 
+            }
+            .publicidad{
+                background: #614500;
+                height: 32px;
+            }
+        
+    .footer{
+        background: #000;
+       
+    }          
+        .pie{
+            background: #4cd1dd;
+            height: 32px;
+        }
+
