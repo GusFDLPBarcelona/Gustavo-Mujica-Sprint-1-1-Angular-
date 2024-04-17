@@ -131,6 +131,26 @@
             }
         }
         
-
+        @media all and (max-width: 600px){
+            .padre{
+                background-color: #ff8000;
+            }
+            .menu{
+                display: flex;
+                flex-direction: column;
+            }
+            .articulos{
+                flex-direction: column;
+            }
+        }
+        
+        @media all and (max-width: 400px){
+            .padre{
+                background-color: #ef5400;
+            }
+            .aside{
+                flex-direction: column;
+            }
+        }
         
         
