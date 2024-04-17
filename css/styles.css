@@ -106,3 +106,31 @@
             height: 32px;
         }
 
+        @media all and (max-width: 768px){
+            .padre{
+                background-color: #7e5f25;
+            }
+            .section{
+                flex-direction: column;
+            }
+            .menu{       
+                background: #7E2553;
+                flex-direction: column;
+                height: auto;
+            }
+            .menu > *{
+                width: 100%;
+            }
+            .aside{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .logo:hover, .nav:hover, .social:hover {
+                transform: scale(1.02);
+            }
+        }
+        
+
+        
+        
